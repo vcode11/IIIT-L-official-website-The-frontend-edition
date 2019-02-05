@@ -40,7 +40,7 @@ body{
 }
 .news-image{
     width: 80%; 
-    height: 350px;
+    height: auto;
     padding-bottom: 20px;
     display: block;
 }
@@ -75,13 +75,13 @@ body{
 @media only screen and (max-width: 900px){
     .news-image{
         width: 90%;
-        height: 300px;
+        height: auto;
     }
 }
 @media only screen and (max-width: 750px){
     .news-image{
         width: 90%;
-        height: 270px;
+        height: auto;
     }
 }
 @media only screen and (max-width: 640px){
@@ -113,7 +113,7 @@ body{
 @media only screen and (max-width: 500px){
     .news-image{
         width: 100%;
-        height: 200px;
+        height: auto;
     }
 } 
 /* News Section End */
