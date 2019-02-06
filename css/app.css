@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+}
+.blogpost-1{
+    font-size: 1.15vw;
+    line-height: 1.21428571;
+    font-family: Mallory-Medium,'Gill Sans','Gill Sans MT',Calibri,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .75px;
+    word-spacing: 1.25px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    color: #286dc0;
+    font-weight:bold;
+    margin-left:65px;
+}
+.blogpost-2{
+    color: #00356b;
+    margin: 8px 0;
+    font-size: 3.25vw;
+    line-height: 1.45;
+    font-family: yale,TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-rendering: optimizeLegibility;
+    margin-left:65px;
+    margin-top:5px;
+}
+.container{
+  margin-top:7%;
+  display:grid;
+  grid-template-columns: auto 22% 11% 11% 48%;
+  grid-template-rows: 14% 1fr 1fr;
+  height:600px;
+  background-color: #00356b;
+  margin-bottom: 80px;
+  font-family: 'Lora', serif;
+}
+.item1{
+  background-color:black;
+  grid-area:2/2/3/3;
+  background-size: cover;
+  background-image: linear-gradient(rgba(37, 38, 40, 0.616),rgba(30, 31, 33, 0.284)), url('/img/hny.jpeg') ;
+}
+.item5{
+  /* background-image: linear-gradient(rgba(98, 75, 160, 0.582),rgba(69, 168, 185, 0.527)), url('./anc.jpg') ; */
+  grid-area:3/2/4/3;
+  background-color: transparent;
+  background-size: cover;
+  background-image: linear-gradient(rgba(37, 38, 40, 0.616),rgba(30, 31, 33, 0.284)), url('/img/research.jpeg') ;
+}
+.item2{
+  grid-area:2/3/3/5;
+  z-index:1;
+  background-image:  url('/img/3.jpg') ;
+  background-size: cover;
+}
+.item3{
+  z-index:1;
+  grid-area:3/3/4/5;
+  background-image: linear-gradient(rgb(244, 179, 166, 0.4),rgba(255, 163, 66, 0.8)), url('/img/indep.jpg') ;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.item4{
+  grid-area:1/4/3/6;
+  height:645px;
+  margin-top:-45px;
+  background-image:
+   linear-gradient(rgba(37, 38, 40, 0.616),rgba(30, 31, 33, 0.284)), url('/img/exams.jpeg');
+  background-size: cover;
+  background-size: 100% 100%;
+
+}
+.item4 button{
+  margin-left:19vw;
+  background-color: transparent;
+  border:1px #cacdd1 solid;
+  padding:10px;
+  font-size:2vw;
+  cursor:pointer;
+  color:#f7faff;
+}
+.item4 button:hover{
+ background-color: #323332;
+}
+.item4 h1{
+  color:#f7faff;
+  font-size: 3vw;
+  line-height: 1.2;
+  margin-left:19vw;
+  margin-top:15vw;
+  font-weight:400;
+}
+.item4 h2{
+  margin-left:19vw;
+  font-weight:300;
+  color:#f7faff;
+}
+.container a{
+  text-decoration: none;
+  
+}
+.container p{
+  margin-left:2.8vw;
+  margin-top:10vw;
+  margin-right: 4vw;
+  font-size:1.75vw;
+  color:#f7faff;
+  transition:  0.4s;
+}
+.container a:hover p{
+  margin-top:9.5vw;
+}
