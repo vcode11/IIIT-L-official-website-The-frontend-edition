@@ -5,6 +5,129 @@ body{
 *{
     box-sizing: border-box;
 }
+
+
+.shubh_content{
+	float: left;
+	position: absolute;
+	background-color: #f9f9f9;;
+	margin-top: 6%;
+	height: 37vw;
+	width: 45%;
+	z-index: 0;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.head{
+	position: relative;
+	font-size: 27px;
+	font-weight: 400;
+	left: 5%;
+	margin-top: 15%;
+	font-family: sans-serif;
+}
+h2{
+	width: 60%;
+	padding-top: 0%;
+	padding-left: 15%;
+	color: #00356b;
+}
+hr{
+	position: absolute;
+	left: 5%;
+	opacity: 0.5;
+	border-top: 1px solid #8c8b8b;
+	width: 30px;
+	margin-top: 5px;
+}
+.shubh_image{
+	position: absolute;
+	background-image: url("/img/lit.png");
+	background-size: cover;
+	right: 0;
+	margin-top: 3.5%;
+	z-index: -1;
+	height: 40vw;
+	width: 58%;
+}
+a{
+	color: black;
+	text-decoration: none !important;
+}
+.learn{
+	align-content: center;
+	border: 1px solid lightgrey;
+	padding: 0.8vw;
+	width: 15%;
+	position: relative;
+	font-size: 0.7vw;
+	color: black;
+	transition-duration: 0.5s;
+	margin-top: 5%;
+	margin-left: 15%;
+}
+.learn:hover{
+	background: #286dc0;
+	color: #fff;
+	border-color: #fff;
+	transition-duration: 0.5s;
+}
+.learn:hover .triangle-right{
+	border-left: 0.5vw solid #fff;
+	transition-duration: 0.5s;
+}
+.triangle-right {
+	margin-top: 1.9%;
+	margin-right: 8%;
+	width: 0vw;
+	height: 0vw;
+	border-top: 0.3vw solid transparent;
+	border-left: 0.5vw solid #555;
+	border-bottom: 0.35vw solid transparent;
+}
+@media only screen and (max-width: 1400px) {
+  .shubh_exg {
+  	font-size-adjust: all;
+  }
+  .egx{
+  	display: none;
+  	font-size: 15px;
+  }
+}
+@media only screen and (max-height: 770px) {
+  .shubh_exg {
+  }
+  .egx{
+  	display: none;
+  	font-size: 15px;
+  }
+}
+@media only screen and (max-width: 700px){
+	.shubh_image{
+		width: 100%;
+		z-index: -1;
+	}
+	.shubh_content{
+		margin-left:5%;
+		margin-top: 38%;
+		width: 90%;
+		z-index: 0;
+	}
+	.head{
+		margin-top: 5%;
+	}
+	.triangle-right{
+		margin-top: 4%;
+		margin-right: 7%;
+		border-left: 0.8vw solid #555;
+	}
+	.learn{
+		font-size: 1.5vw;
+	}
+	.learn:hover .triangle-right{
+		border-left: 0.8vw solid #fff;
+	}
+}
 /* News Section Start */
 .news{
     margin: 10px 0 0 20%;
